@@ -1,0 +1,37 @@
+/* Aplico la tipografía a todas las etiquetas que contienen texto */
+body, h1, h2, h3, h4, h5, h6, p, li, a, span, label, input, textarea, button, select, option {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.page--dark-mode {
+    background-color: #343541;
+    color: #fff;
+}
+.page__section {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flow-root;
+}
+.tdee-calc__step {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+    .page__section {
+        margin: 5%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .page__section {
+        margin: 7%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page__section {
+        margin: 9%;
+    }
+}
